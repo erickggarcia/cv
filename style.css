@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-transform: uppercase
+}
+
+#title-container {
+    margin-top: 30px;
+    border: 7px solid;
+    height: 100px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(15deg, #65ec9b, #4597e9);
+    align-self: center;
+    width: 500px;
+    text-align: center;
+}
+
+body {
+    background-image: url("images/rohit-tandon-mountain-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 100px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: fit-content;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    
+    
+}
+
+.subtitle {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.avatar {
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.topic {
+    font-size: 22px;
+    padding: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.subtopic {
+    font-size: 18px;
+    padding-bottom: 15px;
+    max-width: 500px;
+}
+
+.text {
+    padding-bottom: 30px;
+    font-size: 18px;
+    color: #808080;
+    letter-spacing: 0.9px;
+    max-width: 500px;
+}
+
+.text-italic {
+    font-style: italic;
+    color: #a0a0a0;
+    margin: -10px 0 15px 0;
+}
+
+.container {
+    width: 50%;
+
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 50px 40px 50px 50px;
+}
+
+.right-container{
+    padding: 50px;
+}
+.information{
+    display:flex;
+    
+}
+.list{
+    list-style-type: circle;
+    list-style-position: inside;
+    padding: 15px 0;
+}
+
+.item-list{
+    font-size: 18px;
+
+}
+.vertical-line{
+    border-left: 5px solid;
+    height: 715px;
+    margin-top: 50px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(15deg, #65ec9b,#4597e9);
+}
+@media (max-width:760px) {
+    body{
+        padding: 15px 20px;
+    }
+    #title-container{
+        width: 85%;
+    } 
+    .content{
+        margin: 0;
+    }
+    .information{
+        flex-direction: column;
+    }
+    .left-container{
+        align-items: center;
+        padding: 30px 23px;
+    }
+    .text{
+        margin: 0;
+    }
+    .container{
+        width: auto;
+    }
+    .vertical-line{
+        align-self: center;
+        background: linear-gradient(15deg, #65ec9b,#4597e9);
+        border: none;
+        width: 90%;
+        height: 5px;
+        margin: 0px;
+    
+    }
+}
