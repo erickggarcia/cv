@@ -2,4 +2,4 @@
 
 Esse projeto é meu currículo virtual
 
-https://erickgrohl.github.io/cv/
+https://erickggarcia.github.io/cv/
